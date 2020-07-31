@@ -1,0 +1,41 @@
+baseURL = "https://deloach.tech/"
+languageCode = "en-us"
+title = "deloach.tech"
+theme = "hermit"
+rssLimit = 10  # Maximum number of items in the RSS feed.
+# googleAnalytics = "UA-123-45"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  themeColor = "#494f5c"
+  homeSubtitle = "The homepage of Jack DeLoach"
+
+  footerCopyright = ' &#183; Jack DeLoach'
+
+  relatedPosts = false  # Add a related content section to all single posts page
+
+  # bgImg = ""  # Homepage background-image URL
+
+  code_copy_button = false # Turn on/off the code-copy-button for code-fields
+
+  # Social Icons
+  # Check https://github.com/Track3/hermit#social-icons for more info.
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/"
+
+[menu]
+
+  [[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 10
+
+  [[menu.main]]
+    name = "About"
+    url = "about/"
+    weight = 20
