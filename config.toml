@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "deloach.tech"
 theme = "hermit"
 rssLimit = 10  # Maximum number of items in the RSS feed.
-# googleAnalytics = "UA-123-45"
+googleAnalytics = "UA-174228465-1"
 
 [params]
   dateform        = "Jan 2, 2006"
